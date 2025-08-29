@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+book_digest/.streamlit
+
+rough.ipynb
 check.py
 experiments.ipynb
 # C extensions

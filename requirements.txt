@@ -1,4 +1,5 @@
 streamlit
 langchain
 educhain
+python-dotenv
 langchain-openai

@@ -28,7 +28,8 @@ Was the response correct?: {response_correct}
 @st.cache_resource
 def get_llm(api_key):
     return ChatOpenAI(
-        model="llama-3.1-8b-instant",
+        # model="llama-3.1-8b-instant",
+        model="llama-3.1-70b-versatile",
         openai_api_base="https://api.groq.com/openai/v1",
         openai_api_key=api_key
     )
